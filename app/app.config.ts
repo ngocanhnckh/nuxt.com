@@ -40,6 +40,9 @@ export default defineAppConfig({
       }
     },
     prose: {
+      code: {
+        base: 'max-w-full break-words'
+      },
       img: {
         slots: {
           base: 'w-full'
